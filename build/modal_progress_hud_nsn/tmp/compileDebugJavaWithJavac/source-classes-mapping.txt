@@ -1,0 +1,2 @@
+com/walle/modal_progress_hud_nsn/BuildConfig.java
+ com.walle.modal_progress_hud_nsn.BuildConfig
