@@ -1,16 +1,28 @@
-# apitutorials
+I have created a full course on API integration in Flutter from scratch to advance level. If you are a new bee and looking for a flutter resource regarding API integration then you will find it interesting. These videos are not just simple tutorials that i have created, i am sharing my experience in the field of app development and what type of mistakes i did during my learning phase and that you are not supposed to do. So, all of your questions that are shaking your mind will be answered here.
+Here is what we will learn in this course.
+ Introduction to APIS.
+1. Understanding of JSON Structure.
+2. What is Postman, how it helps us to understand the JSON Response.
+3. What is model, what are Plugins and how  different Plugins help us to create models of our API JSON data. 
+4. How we can parse JSON data via Model.
+GET APIS
 
-A new Flutter project.
+1. What are Get APIS 
+2. What are different scenarios to handle Get API
+3. Integrate Get APIS with Plugins Model and show data into List\
+4. Integrate Get APIS with your own Model and show data into List
+5. Integrate Get APIS with without Model and show data into List
+6. Very Complex JSON practical Example
 
-## Getting Started
+POST APIS
+1. What is POST API
+2. How do Post APIS work 
+3. Implement Login & Sign Up with with REST API in flutter
+4. Upload Single Image onto server via HTTP Request Example 
+5. Upload Multiple images to server 
+6. Upload data in arrays to server 
+7. What is MVVM, what is the importance of learning MVVM architecture. 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Covering all the above concepts into a single app that we will create at the end of this course.
+So what keeps you stopping to learn Flutter, let's start.
+Happy flirting with Flutter.
