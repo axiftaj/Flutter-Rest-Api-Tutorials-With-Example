@@ -3,6 +3,6 @@
 3    package="io.flutter.plugins.flutter_plugin_android_lifecycle" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/Users/asiftaj/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.5/android/src/main/AndroidManifest.xml
+5-->/Users/asiftaj/documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.5/android/src/main/AndroidManifest.xml
 6
 7</manifest>

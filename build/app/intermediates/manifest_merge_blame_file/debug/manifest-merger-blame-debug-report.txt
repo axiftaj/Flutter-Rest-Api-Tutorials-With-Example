@@ -6,110 +6,126 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-9        android:targetSdkVersion="30" />
+9        android:targetSdkVersion="31" />
 10    <!--
 11         Flutter needs it to communicate with the running application
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/asiftaj/Desktop/apitutorials/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/Users/asiftaj/Desktop/apitutorials/android/app/src/debug/AndroidManifest.xml:6:22-64
-15    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
-15-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:4:5-81
-15-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:4:22-78
-16    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
-16-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:5:5-80
-16-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:5:22-77
-17
-18    <application
-18-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:7:4-44:19
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.1.0] /Users/asiftaj/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/AndroidManifest.xml:24:18-86
-20        android:debuggable="true"
-21        android:icon="@mipmap/ic_launcher"
-21-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:9:9-43
-22        android:label="apitutorials" >
-22-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:8:9-37
-23        <activity
-23-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:10:9-38:20
-24            android:name="com.example.apitutorials.MainActivity"
-24-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:11:13-41
-25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-25-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:14:13-163
-26            android:hardwareAccelerated="true"
-26-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:15:13-47
-27            android:launchMode="singleTop"
-27-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:12:13-43
-28            android:theme="@style/LaunchTheme"
-28-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:13:13-47
-29            android:windowSoftInputMode="adjustResize" >
-29-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:16:13-55
-30
-31            <!--
-32                 Specifies an Android theme to apply to this Activity as soon as
-33                 the Android process has started. This theme is visible to the user
-34                 while the Flutter UI initializes. After that, this theme continues
-35                 to determine the Window background behind the Flutter UI.
-36            -->
-37            <meta-data
-37-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:21:13-24:17
-38                android:name="io.flutter.embedding.android.NormalTheme"
-38-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:22:15-70
-39                android:resource="@style/NormalTheme" />
-39-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:23:15-52
-40            <!--
-41                 Displays an Android View that continues showing the launch screen
-42                 Drawable until Flutter paints its first frame, then this splash
-43                 screen fades out. A splash screen is useful to avoid any visual
-44                 gap between the end of Android's launch screen and the painting of
-45                 Flutter's first frame.
-46            -->
-47            <meta-data
-47-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:30:13-33:17
-48                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-48-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:31:15-79
-49                android:resource="@drawable/launch_background" />
-49-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:32:15-61
-50
-51            <intent-filter>
-51-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:34:13-37:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:35:17-68
-52-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:35:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:36:17-76
-54-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:36:27-74
-55            </intent-filter>
-56        </activity>
-57        <!--
-58             Don't delete the meta-data below.
-59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-60        -->
-61        <meta-data
-61-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:41:9-43:33
-62            android:name="flutterEmbedding"
-62-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:42:13-44
-63            android:value="2" />
-63-->/Users/asiftaj/Desktop/apitutorials/android/app/src/main/AndroidManifest.xml:43:13-30
-64
-65        <provider
-65-->[:image_picker] /Users/asiftaj/Desktop/apitutorials/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
-66            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-66-->[:image_picker] /Users/asiftaj/Desktop/apitutorials/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
-67            android:authorities="com.example.apitutorials.flutter.image_provider"
-67-->[:image_picker] /Users/asiftaj/Desktop/apitutorials/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
-68            android:exported="false"
-68-->[:image_picker] /Users/asiftaj/Desktop/apitutorials/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
-69            android:grantUriPermissions="true" >
-69-->[:image_picker] /Users/asiftaj/Desktop/apitutorials/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
-70            <meta-data
-70-->[:image_picker] /Users/asiftaj/Desktop/apitutorials/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
-71                android:name="android.support.FILE_PROVIDER_PATHS"
-71-->[:image_picker] /Users/asiftaj/Desktop/apitutorials/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
-72                android:resource="@xml/flutter_image_picker_file_paths" />
-72-->[:image_picker] /Users/asiftaj/Desktop/apitutorials/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
-73        </provider>
-74    </application>
+14-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:5:5-80
+15-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:5:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:6:5-81
+16-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:6:22-78
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:7:5-65
+17-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:7:22-62
+18
+19    <application
+19-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:9:4-46:19
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.6.0] /Users/asiftaj/.gradle/caches/transforms-2/files-2.1/3db6d125c6afcb0a6fe221b28e1b5f57/core-1.6.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:11:9-43
+23        android:label="apitutorials" >
+23-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:10:9-37
+24        <activity
+24-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:12:9-40:20
+25            android:name="com.example.apitutorials.MainActivity"
+25-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:13:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:16:13-163
+27            android:hardwareAccelerated="true"
+27-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:17:13-47
+28            android:launchMode="singleTop"
+28-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:14:13-43
+29            android:theme="@style/LaunchTheme"
+29-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:15:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:18:13-55
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+38-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:23:13-26:17
+39                android:name="io.flutter.embedding.android.NormalTheme"
+39-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:24:15-70
+40                android:resource="@style/NormalTheme" />
+40-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:25:15-52
+41            <!--
+42                 Displays an Android View that continues showing the launch screen
+43                 Drawable until Flutter paints its first frame, then this splash
+44                 screen fades out. A splash screen is useful to avoid any visual
+45                 gap between the end of Android's launch screen and the painting of
+46                 Flutter's first frame.
+47            -->
+48            <meta-data
+48-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:32:13-35:17
+49                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+49-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:33:15-79
+50                android:resource="@drawable/launch_background" />
+50-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:34:15-61
+51
+52            <intent-filter>
+52-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:36:13-39:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:37:17-68
+53-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:37:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:38:17-76
+55-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:38:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:43:9-45:33
+63            android:name="flutterEmbedding"
+63-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:44:13-44
+64            android:value="2" />
+64-->/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/android/app/src/main/AndroidManifest.xml:45:13-30
+65
+66        <provider
+66-->[:image_picker] /Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+67            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+67-->[:image_picker] /Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+68            android:authorities="com.example.apitutorials.flutter.image_provider"
+68-->[:image_picker] /Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+69            android:exported="false"
+69-->[:image_picker] /Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+70            android:grantUriPermissions="true" >
+70-->[:image_picker] /Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+71            <meta-data
+71-->[:image_picker] /Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+72                android:name="android.support.FILE_PROVIDER_PATHS"
+72-->[:image_picker] /Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+73                android:resource="@xml/flutter_image_picker_file_paths" />
+73-->[:image_picker] /Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+74        </provider>
 75
-76</manifest>
+76        <uses-library
+76-->[androidx.window:window:1.0.0-beta04] /Users/asiftaj/.gradle/caches/transforms-2/files-2.1/0d220902e1a5788485b57b14683c7e64/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+77            android:name="androidx.window.extensions"
+77-->[androidx.window:window:1.0.0-beta04] /Users/asiftaj/.gradle/caches/transforms-2/files-2.1/0d220902e1a5788485b57b14683c7e64/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+78            android:required="false" />
+78-->[androidx.window:window:1.0.0-beta04] /Users/asiftaj/.gradle/caches/transforms-2/files-2.1/0d220902e1a5788485b57b14683c7e64/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+79        <uses-library
+79-->[androidx.window:window:1.0.0-beta04] /Users/asiftaj/.gradle/caches/transforms-2/files-2.1/0d220902e1a5788485b57b14683c7e64/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+80            android:name="androidx.window.sidecar"
+80-->[androidx.window:window:1.0.0-beta04] /Users/asiftaj/.gradle/caches/transforms-2/files-2.1/0d220902e1a5788485b57b14683c7e64/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+81            android:required="false" />
+81-->[androidx.window:window:1.0.0-beta04] /Users/asiftaj/.gradle/caches/transforms-2/files-2.1/0d220902e1a5788485b57b14683c7e64/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+82    </application>
+83
+84</manifest>

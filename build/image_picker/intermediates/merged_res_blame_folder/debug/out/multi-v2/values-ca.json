@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/asiftaj/Desktop/apitutorials/build/image_picker/intermediates/res/merged/debug/values-ca/values-ca.xml",
+            "outputFile": "/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/image_picker/intermediates/res/merged/debug/values-ca/values-ca.xml",
             "map": [
                 {
-                    "source": "/Users/asiftaj/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/values-ca/values-ca.xml",
+                    "source": "/Users/asiftaj/.gradle/caches/transforms-2/files-2.1/3db6d125c6afcb0a6fe221b28e1b5f57/core-1.6.0/res/values-ca/values-ca.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/asiftaj/Desktop/apitutorials/build/image_picker/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
+            "outputFile": "/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/image_picker/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
             "map": [
                 {
-                    "source": "/Users/asiftaj/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/values-ca/values-ca.xml",
+                    "source": "/Users/asiftaj/.gradle/caches/transforms-2/files-2.1/3db6d125c6afcb0a6fe221b28e1b5f57/core-1.6.0/res/values-ca/values-ca.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

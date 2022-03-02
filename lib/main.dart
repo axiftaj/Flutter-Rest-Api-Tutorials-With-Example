@@ -1,6 +1,4 @@
-import 'package:apitutorials/signup.dart';
-import 'package:apitutorials/example_fiver.dart';
-import 'package:apitutorials/example_five.dart';
+import 'package:apitutorials/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,10 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const ExampleFiverScreen(),
+      theme: ThemeData.dark(),
+      home: const HomScreen(),
     );
   }
 }
