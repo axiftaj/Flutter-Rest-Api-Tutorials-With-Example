@@ -29,7 +29,7 @@ class _PostApiScreenState extends State<PostApiScreen> {
               Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpScreen()));
             },),
             ReusableWidget(title: 'Upload image to server', subTitle:
-            'Uplaod image to server using image path(url)',onPress: (){
+            'Upload image to server using image path(url)',onPress: (){
               Navigator.push(context, MaterialPageRoute(builder: (context) => UploadImageScreen()));
             },),
 

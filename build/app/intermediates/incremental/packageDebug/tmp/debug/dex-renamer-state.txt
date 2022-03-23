@@ -1,4 +1,0 @@
-#Wed Mar 02 12:53:05 PKT 2022
-base.0=/Users/asiftaj/Documents/GitHub/Flutter-Rest-Api-Tutorials-With-Example/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
